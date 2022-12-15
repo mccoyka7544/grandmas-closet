@@ -5,6 +5,19 @@ header{
 header>img{
     max-width: 20rem;
 }
+nav{
+    color:#EFEBCE;
+    text-align: end;
+    justify-content: center;
+}
 body{
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Unna', serif;
+    background-color:#EFEBCE;
+}
+div{
+    background-color: #A3A380;
+}
+footer{
+    background-color: #BB8588;
+    color:#EFEBCE;
 }
