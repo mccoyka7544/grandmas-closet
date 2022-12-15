@@ -1,0 +1,10 @@
+header{
+    background-color: #BB8588;
+    color:#EFEBCE;
+}
+header>img{
+    max-width: 20rem;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+}
