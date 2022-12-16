@@ -1,14 +1,18 @@
 header{
     background-color: #BB8588;
     color:#EFEBCE;
+    padding: 1rem;
+    margin: -1rem;
 }
 header>img{
     max-width: 20rem;
 }
 nav{
     color:#EFEBCE;
-    text-align: end;
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
 }
 body{
     font-family: 'Unna', serif;
@@ -20,4 +24,30 @@ div{
 footer{
     background-color: #BB8588;
     color:#EFEBCE;
+}
+form>label{
+    display: block;
+    font-size: 1.5rem;
+}
+form{
+    background-color: #A3A380;
+    margin-top: -2;
+    padding: 1rem;
+    color:#EFEBCE;
+}
+input[type=text], [type=email], [type=description], [type=price]{
+    border: 3px solid #D8A48F;
+    border-radius: 2rem;
+    width: calc(100% - 2rem);
+}
+input[type=reset], [type=submit]{
+    font-family: 'Unna', serif;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 3px solid #EFEBCE;
+    background-color: #BB8588;
+    color:#EFEBCE
+}
+input [type=picture]{
+    font-family: 'Unna', serif;
 }
