@@ -8,16 +8,15 @@ header{
     justify-content: center;
 }
 header>img{
-    width: 23rem;
+    width: 22rem;
     max-width: 100%;
-    padding: 1rem;
 }
 nav>a{
     color:#EFEBCE;
     background-color: #D8A48F;
     border: 5px solid #D8A48F;
     border-radius: 4rem;
-    display: inline block;
+    display: inline-block;
     margin: 1rem;
 }
 body{
@@ -62,9 +61,6 @@ main{
 div{
     margin: 3rem;
 }
-div>h1{
-    text-align: center;
-}
 div>p{
     border: 3px solid #D6CE93;
     background-color: #D6CE93;
@@ -77,12 +73,11 @@ p{
 footer{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 1rem;
     background-color: #BB8588;
     color:#EFEBCE;
     margin: 1rem -1rem -1rem;
-
 }
 footer>a{
     border: 3px solid #D8A48F;
@@ -100,7 +95,7 @@ footer>a{
 }
 h1{
     color:#EFEBCE;
-    font: bolder;
+    text-align: center;
 }
 .featured>img{
     max-width: 20rem;
@@ -111,15 +106,12 @@ h1{
 .featured, .contact{
     text-align: center;
 }
-main>h1{
-    text-align: center;
-}
 hr{
     border-top: 5px solid #EFEBCE;
     margin: 1rem;
     border-radius: 2rem;
 }
-@media (min-width: 900px){
+@media (min-width: 850px){
     header{
         display: flex;
         align-items: center;
